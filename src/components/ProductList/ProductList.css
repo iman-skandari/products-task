@@ -1,0 +1,19 @@
+.card {
+    transition: transform 0.3s; /* انیمیشن برای بزرگ شدن کارت */
+}
+
+.card:hover {
+    transform: scale(1.05); /* بزرگ‌تر شدن کارت هنگام هاور */
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem; /* فاصله بین کارت‌ها در صفحه‌های کوچک */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 0.5rem; /* فاصله کمتر در صفحه‌های خیلی کوچک */
+    }
+}
