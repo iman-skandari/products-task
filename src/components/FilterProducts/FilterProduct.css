@@ -1,0 +1,17 @@
+.filter-container {
+    width: 100%; /* عرض کامل در صفحه‌های کوچک */
+    max-width: 600px; /* حداکثر عرض */
+    margin: 0 auto; /* مرکز کردن */
+}
+
+@media (max-width: 768px) {
+    .filter-container {
+        padding: 1rem; /* padding برای صفحه‌های کوچک */
+    }
+}
+
+@media (max-width: 576px) {
+    .filter-container {
+        padding: 0.5rem; /* padding کمتر برای صفحه‌های خیلی کوچک */
+    }
+}
